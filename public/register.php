@@ -14,7 +14,8 @@
     else if ($_SERVER["REQUEST_METHOD"] == "POST")
     {
         // 
-        $success = CS50::query("INSERT IGNORE INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT));
+        
+        $success = CS50::query("INSERT IGNORE INTO users (username, hash, cash, name, lastname) VALUES(?, ?, 10000.0000, ?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT), $_POST["name"], $_POST["lastname"]);
         
         if ($success === false)
         {
