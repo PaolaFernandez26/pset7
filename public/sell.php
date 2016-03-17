@@ -34,6 +34,7 @@
     {
         $shares = CS50::query("SELECT shares FROM portfolio WHERE user_id = ? AND symbol = ?",$_SESSION['id'],$_POST["symbol"]);
         $stock = lookup($_POST["symbol"]);
+        // A numer intruduced by the user
         $profit = $_POST["shares"] * $stock["price"];
         
         CS50::query("UPDATE users SET cash = cash + ? WHERE id = ?",$profit,$_SESSION['id']);  
