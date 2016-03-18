@@ -1,4 +1,4 @@
-<table class="table table-hover">
+<table class="table table-striped">
     <tr>
         <th class="text-center">Symbol</th>
         <th class="text-center">Name</th>

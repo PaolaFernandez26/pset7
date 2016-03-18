@@ -1,4 +1,4 @@
-<table class="table table-hover">
+<table class="table table-striped">
     <tr>
         <th class="text-center">Transaction</th>
         <th class="text-center">Date/Time</th></th>
