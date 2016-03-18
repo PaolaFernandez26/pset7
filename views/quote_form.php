@@ -5,7 +5,7 @@
         </div>
         
         <div class="form-group">
-            <button class="btn btn-default" type="submit">
+            <button class="btn btn-info" type="submit">
                 <span aria-hidden="true" class="glyphicon glyphicon-log-in"></span>
                 Quote
             </button>

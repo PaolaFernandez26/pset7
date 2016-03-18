@@ -21,4 +21,4 @@
     ?>
 </table>
 <h3>Hello, <?= $user["username"] ?>! Your balance is: $<?= $user["cash"] ?></h3>
-<h3><?= $user["name"] . " ". $user["lastname"] ?></h3>
+<h2><mark><?= $user["name"] . " ". $user["lastname"] ?></mark></h2>

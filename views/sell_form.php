@@ -14,7 +14,7 @@
             <input autofocus class="form-control" name="shares" placeholder="Shares" type="text"/>
         </div>
         <div class="form-group">
-            <button class="btn btn-default" type="submit">
+            <button class="btn btn-primary" type="submit">
                 Sell
             </button>
         </div>
