@@ -46,6 +46,7 @@
         {
             apologize("Sorry, your number was invalid.");
         }
+        
         if($shares < $_POST["shares"])
         {
             apologize("Sorry, your number invalid");
